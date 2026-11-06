@@ -1,0 +1,13 @@
+Order ID,Customer Name, Product ,Quantity,Unit Price,Order Date,Region
+1001,Alice Smith,Widget,2,19.99,2024-01-05,north
+1002,Bob Jones,Gadget,1,49.50,2024-01-06,South
+1002,Bob Jones,Gadget,1,49.50,2024-01-06,South
+1003,,Widget,3,19.99,2024-01-07,NORTH
+1004,Carol White,Gizmo,5,,2024-01-08,south
+,,,,,,
+1005,Dave Brown,widget,2,19.99,2024-01-05,North
+1006,Eve Black,Gadget,,49.50,2024-01-10,WEST
+1007,Frank Green,Gizmo,4,25.00,2024/01/09,South
+1008,Grace Lee,WIDGET,1,19.99,2024-01-11,north
+1008,Grace Lee,Widget,1,19.99,2024-01-11,north
+1009,Henry Ford,Gadget,2,49.50,not-a-date,South

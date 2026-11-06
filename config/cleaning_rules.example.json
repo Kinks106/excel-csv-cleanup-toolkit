@@ -1,0 +1,31 @@
+{
+  "normalize_columns": true,
+  "drop_empty_rows": true,
+  "drop_duplicates": true,
+  "duplicate_subset": null,
+
+  "text_case": {
+    "customer_name": "title",
+    "product": "lower",
+    "region": "upper"
+  },
+
+  "date_columns": {
+    "order_date": null
+  },
+
+  "missing_value_rules": {
+    "customer_name": { "strategy": "fill_value", "value": "UNKNOWN" },
+    "unit_price": { "strategy": "fill_median" },
+    "quantity": { "strategy": "fill_value", "value": "0" }
+  },
+  "default_missing": { "strategy": "leave" },
+
+  "required_columns": ["order_id", "product", "order_date"],
+  "column_types": {
+    "order_id": "int",
+    "quantity": "int",
+    "unit_price": "float",
+    "order_date": "date"
+  }
+}
